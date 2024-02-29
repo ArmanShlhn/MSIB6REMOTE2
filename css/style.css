@@ -7,11 +7,13 @@ p{
 }
 
 #bgnavbar{
-    background-image: url(../img/bg3.png);
+    /* background-image: url(../img/bg3.png); */
+    background: linear-gradient(130deg, rgba(80, 164, 255, 0.648) 0%, rgba(18, 27, 32, 0.501) 99%);
+
 }
 
 body{
-    background: linear-gradient(130deg, rgba(196,225,255,0.648) 0%, rgba(218,242,255,0.501) 99%);
+    background: linear-gradient(130deg, rgba(248, 240, 163, 0.648) 0%, rgba(218,242,255,0.501) 99%);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, sans-serif; /* Mengatur jenis font untuk teks */
@@ -27,8 +29,8 @@ fieldset, legend{
 
 legend{
     padding: 10px;
-    background-color: brown;
-    color: rgb(0, 0, 0);
+    background-color: rgb(42, 136, 165);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 14pt;
 }
